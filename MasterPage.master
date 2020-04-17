@@ -1,0 +1,453 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title> FTN</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/begging.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid p-0">
+                    <div class="row align-items-center justify-content-between no-gutters">
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo-img">
+                                <a href="Default.aspx">
+                                    <img src="img/Logopit_1581395749838.png" alt="" height="180">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a class="active" href="Default.aspx" >home</a></li>
+                                        <li><a href="about.html">About</a></li>
+                                        <li><a href="Login.aspx" >Donor</a></li>
+                                        <li><a href="Login.aspx" >Recipient</a></li>
+                                        <li><a href="Default2.aspx">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area slider_bg_1 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="single_slider">
+                        <div class="slider_text">
+                            <h3>Support a Causes <br>
+                                You Care About</h3>
+                            <p>By Feed The Needy we believe that all people in India have the right to be
+                                cared for and the right to be protected.</p>
+                            <a href="Login.aspx" class="boxed-btn2">Join Us Today</a>                      
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+    <!-- causes_area_start -->
+    <div class="causes_area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6">
+                    <div class="causes_info">
+                        <div class="section_title">
+                            <span>Upcoming Cause</span>
+                            <h3>
+                               Support poor and needy in India
+                            </h3>
+                        </div>
+                        <p>Inspires the peoples of India to share the food and things and reduce the wastage. We do this to bring a change in our society,that leads to change our world.
+                            People should give sufficient food supplies to poor people because all human beings are entitled to lead healthy and fulfilled lives, which includes having sufficient food quantities and quality.<br />
+                            From an ethical point of view, people should provide food to the poor since it is the morally upright thing to do.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="causes_thumb">
+                        <img class="img-fluid" src="img/causes/1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- causes_area_end -->
+
+    <!-- about_area_start -->
+    <div class="about_area gray-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_thumb">
+                        <img src="img/about/about.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-6 col-md-6">
+                    <div class="about_right">
+                        <div class="section_title">
+                            <span>About Us</span>
+                            <h3>
+                              Poverty leads to hunger<br />
+                                but if we work together, <br />
+                                we can create a world where no child goes to bed hungry.
+                               
+                            </h3>
+                        </div>
+                        <p> The Feed the Needy Foundation is to provide food (in the form of freshly cooked meals as well as food parcels) to those who are destitute and needy,
+                                irrespective of what their race, colour, creed, religion or political persuasion is.<br />
+                                We distribute food into poverty-stricken areas with a strong focus on reaching the elderly and the very young who are the most vulnerable members of our communities.<br />
+                                We invite you to join us, become part of the Feed the Needy family and help make a positive impact on the lives of our fellow human beings.<br /> </p>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about_area_end -->
+
+    <!-- servce_area_start -->
+    <div class="servce_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-60">
+                        <span>We Work For</span>
+                        <h3>
+                            We Serve For Peoples
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-meat" ></i>
+                        </div>
+                        <h3>Consumable</h3>
+                        <p>Inspires employees and organizations to support causes they care about. We do this to bring
+                            more resources to the nonprofits that are </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-open-magazine"></i>
+                        </div>
+                        <h3>Non-Consumable</h3>
+                        <p>Inspires employees and organizations to support causes they care about. We do this to bring
+                            more resources to the nonprofits that are </p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_serve text-center">
+                        <div class="serve_icon">
+                            <i class="flaticon-meat"></i>
+                        </div>
+                        <h3>Quick Food</h3>
+                        <p>This is a mission to end food waste and hunger to make the “World Hunger Free”.
+                            We recover surplus food from weddings, parties and functions and donate it to needy and hungry people. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- servce_area_end -->
+
+    <!-- help_area_start -->
+    <div class="help_area gray-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-4">
+                    <div class="help_info">
+                        <div class="section_title">
+                            <span>Help Us</span>
+                            <h3>
+                                we need<br>
+                                Your help
+                            </h3>
+                        </div>
+                        <p>With the help of you generous donors and supporters, we assist thousands of people every year.<br />
+                            We not only aid the less fortunate but provide them with the tools and skills to aid themselves in the long term</p>
+                       
+                    </div>
+                </div>
+                <div class="col-xl-8">
+                    <div class="help_slider_active owl-carousel">
+                        <div class="single_help_wrap">
+                            <div class="thumb">
+                                <img src="img/help/1.png" alt="">
+                            </div>
+                            <div class="help_content">
+                                <h3>Help the poor who needs us</h3>
+                               
+                                
+                            </div>
+                        </div>
+                        <div class="single_help_wrap">
+                            <div class="thumb">
+                                <img src="img/help/2.png" alt="">
+                            </div>
+                            <div class="help_content">
+                                <h3>Don't Waste food</h3>
+                                
+                                </div>
+                               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- help_area_end -->
+
+    <!-- volunteers_area_satrt -->
+    <div class="volunteers_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="section_title text-center mb-60">
+                        <span>We Work For</span>
+                        <h3>
+                            We Serve For Peoples
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_volunteer">
+                        <div class="thumb">
+                            <img src="img/vijeth.jpg" alt="volunteer1">
+                            <div class="social_links">
+                                <ul>
+                                    <li><a href="https://www.facebook.com/vijeth.dsouza.102"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="https://twitter.com/Vijethdsouza2"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.linkedin.com/in/vijeth-dsouza-b8b097127/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BaIvDUrA0RqqIV2zWj1s2iQ%3D%3D"><i class="fa fa-linkedin-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="author_name text-center">
+                            <h3>Vijeth Dsouza</h3>
+                            <span>Volunteer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_volunteer">
+                        <div class="thumb">
+                            <img src="img/asif.jpg" alt="volunteer2">
+                            <div class="social_links">
+                                <ul>
+                                    
+                                    <li><a href="https://twitter.com/asif_albady"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="https://www.instagram.com/m_asiif"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="author_name text-center">
+                            <h3>Mohammed Asif</h3>
+                            <span>Volunteer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_volunteer">
+                        <div class="thumb">
+                            <img src="img/sagar.jpg" alt="volunteer3">
+                            <div class="social_links">
+                                <ul>
+                                   
+                                    <li><a href="https://twitter.com/SagarV87513268"><i class="fa fa-twitter"></i></a></li>
+                                   <li><a href="https://www.instagram.com/sagar_v_shetty"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="author_name text-center">
+                            <h3>Sagar Kothari</h3>
+                            <span>Volunteer</span>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- volunteers_area_end -->
+
+    <!-- become_volunter_start -->
+    <div class="become_volunter volunter_bg_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2 col-md-10 offset-md-1">
+                    <div class="volunter_text text-center">
+                        <h3>Become a Volunteer</h3>
+                        <p>Inspires employees and organizations to support causes they care <br>
+                            about. We do this to bring more resources to the nonprofits that are
+                            changing our world.</p>
+                        <a class="boxed-btn4" href="Login.aspx">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- become_volunter_end -->
+    
+    <!-- footer_start -->
+    <footer class="footer">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Join With Us
+                            </h3>
+                            <p class="footer_text doanar"> <a class="first" href="Login.aspx">Become a Donor</a> <br><a
+                                    href="Login.aspx">Become a Recipient</a></p>
+
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                address
+                            </h3>
+                            <p class="footer_text">Milagres college,Kallianpur <br>
+                               7406473428 <br>
+                                <a class="domain" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://mail.google.com/mail&service=mail">feedtheneedyftn@gmail.com</a></p>
+                            <div class="socail_links">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-6 col-lg-2">
+                        <div class="footer_widget">
+                            <h3 class="footer_title">
+                                Navigation
+                            </h3>
+                            <ul>
+                                <li><a href="Default.aspx">Home</a></li> 
+                                <li><a href="about.html">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container">
+                <div class="footer_border"></div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center">
+                           
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="" target="_blank">FTN</a>
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer_end -->
+
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+    <script src="js/main.js"></script>
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
